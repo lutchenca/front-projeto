@@ -1,0 +1,28 @@
+:root {
+    background-color: white;
+    font-family:monospace, Helvetica, sans-serif;
+    margin: 0;
+    height: 100%;    
+}
+
+
+.login {
+    padding: 10px;
+    margin-top: auto;
+}
+
+.logo-afya {
+    text-align: right;
+    padding: 10px;
+}
+
+.texto {
+    padding: 10px;
+    background-color: #d40054;
+    color: white;
+}
+
+
+#InputTipo {
+    width: fit-content;
+}
