@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/cadastroMedico/style.css" media="screen">
+    
+    <title>Cadastro Médico</title>
+</head>
+<body>
+    <div>
+        
+        <h1 id="titulo">Faça seu cadastro</h1>
+        <p id="subtitulo">Já possui uma conta? Entre aqui.</p>
+        <br>
+    </div>
+
+    
+    <form>
+
+        <h3>Dados Pessoais</h1>
+            
+            <fieldset class="grupo">
+            <div class="campo">
+                <label for="nome"><strong>Nome Completo*</strong></label>
+                <input type="text" name="nome" id="nome" required>
+            </div>
+           
+            <div class="campo">
+                <label for="profissao"><strong>Profissão</strong></label>
+                <input type="text" name="profissao" id="profissao" required>
+            </div>
+            </fieldset> 
+
+            <fieldset class="grupo">
+            <div class="campo">
+                <label for="email"><strong>Email*</strong></label>
+                <input type="email" name="email" id="email" required>
+            </div>
+
+            <div class="campo">
+                <label for="celular"><strong>Celular*</strong></label>
+                <input type="celular" name="celular" id="celular" required>
+            </div>
+            </fieldset>
+
+            <fieldset class="grupo">
+            <div class="campo">
+                <label for="telefone"><strong>Telefone*</strong></label>
+                <input type="telefone" name="telefone" id="telefone" required>
+            </div>
+
+            
+            <div class="campo">
+                <label for="cpf"><strong>CPF*</strong></label>
+                <input type="cpf" name="cpf" id="cpf" required>
+            </div>
+            </fieldset>
+        
+        <h3>Endereço</h3>
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="estado"><strong>Estado*</strong></label>
+                <input type="text" name="estado" id="estado" required>
+            </div>
+           
+            <div class="campo">
+                <label for="Cidade"><strong>Cidade*</strong></label>
+                <input type="text" name="Cidade" id="Cidade" required>
+            </div>
+            </fieldset> 
+
+            <fieldset class="grupo">
+            <div class="campo">
+                <label for="bairro"><strong>Bairro*</strong></label>
+                <input type="bairro" name="bairro" id="bairro" required>
+            </div>
+
+            <div class="campo">
+                <label for="rua"><strong>Rua*</strong></label>
+                <input type="rua" name="rua" id="rua" required>
+            </div>
+            </fieldset>
+
+            <fieldset class="grupo">
+            <div class="campo">
+                <label for="numero"><strong>Número*</strong></label>
+                <input type="numero" name="numero" id="numero" required>
+            </div>
+            <div class="campo">
+                <br>
+                <label for="complemento"><strong>Complemento: </strong></label>
+                <textarea rows="2" style="width: 26em" id="complemento" name="complemento"></textarea>
+            </div>
+            </fieldset>  
+        
+        <button class="botao" type="submit" onsubmit="">Cadastrar</button>            
+        <div class="checkbox centralize">                         
+            <label>
+                <input type="checkbox"/> Eu li e concordo com os Termos de Uso e Política de Privacidade
+            </label>                     
+        </div>        
+    </form>
+    
+</body>
+</html>
