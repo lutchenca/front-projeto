@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="/cadastroPaciente/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="../cadastroPaciente/style.css">
     <title>Cadastro Paciente</title>
 </head>
+
 <body>
 
     <div class="container-fluid">
@@ -17,7 +20,7 @@
 
             <div class="col-md-4 login">
                 <h3>
-                    Já possui cadastro? Entre aqui. 
+                    Já possui cadastro? Entre aqui.
                 </h3>
             </div>
 
@@ -29,7 +32,8 @@
         <div class="row">
             <div class="col-md-4 texto">
                 <p>
-                    Aqui você pode controlar o prontuário do seu paciente, otimizando sua consulta e promovendo o melhor atendimento possível.
+                    Aqui você pode controlar o prontuário do seu paciente, otimizando sua consulta e promovendo o melhor
+                    atendimento possível.
                 </p>
             </div>
 
@@ -38,106 +42,106 @@
                     <p class="dados">Dados Pessoais</p>
 
                     <fieldset class="grupo">
-                    <div class="form-group">
-                        <label for="InputNome">
-                            Nome Completo*
-                        </label>
-                        <input type="nome" class="form-control" id="InputNome" />
-                    </div>
+                        <div class="form-group">
+                            <label for="InputNome">
+                                Nome Completo*
+                            </label>
+                            <input type="nome" class="form-control" id="InputNome" required />
+                        </div>
 
-                    <div class="form-group">
-                        <label for="InputTipo">
-                            Tipo Sanguíneo*
-                        </label>
-                        <input type="tipo-sanguineo" class="form-control" id="InputTipo" />
-                    </div>
+                        <div class="form-group">
+                            <label for="InputTipo">
+                                Tipo Sanguíneo*
+                            </label>
+                            <input type="tipo-sanguineo" class="form-control" id="InputTipo" required />
+                        </div>
                     </fieldset>
 
                     <fieldset class="grupo">
-                    <div class="form-group">
-                        <label for="InputCelular">
-                            Celular*
-                        </label>
-                        <input type="cellphone" class="form-control" id="InputCelular" />
-                    </div>
-                
-                    <div class="form-group">
-                        <label for="InputTelefone">
-                            Telefone*
-                        </label>
-                        <input type="telephone" class="form-control" id="InputTelefone" />
-                    </div>
+                        <div class="form-group">
+                            <label for="InputCelular">
+                                Celular*
+                            </label>
+                            <input type="cellphone" class="form-control" id="InputCelular" required />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="InputTelefone">
+                                Telefone*
+                            </label>
+                            <input type="telephone" class="form-control" id="InputTelefone" required />
+                        </div>
                     </fieldset>
 
                     <fieldset class="grupo">
-                    <div class="form-group">
-                        <label for="InputEmail">
-                            Email*
-                        </label>
-                        <input type="email" class="form-control" id="InputEmail" />
-                    </div>
-                    <div class="form-group">                         
-                        <label for="InputCPF">
-                        CPF*
-                        </label>
-                        <input type="CPF" class="form-control" id="InputCPF" />
-                    </div>
+                        <div class="form-group">
+                            <label for="InputEmail">
+                                Email*
+                            </label>
+                            <input type="email" class="form-control" id="InputEmail" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="InputCPF">
+                                CPF*
+                            </label>
+                            <input type="CPF" class="form-control" id="InputCPF" required />
+                        </div>
                     </fieldset>
 
                     <p class="dados">Endereço</p>
 
                     <fieldset class="grupo">
-                    <div class="form-group">
-                        <label for="InputEstado">
-                            Estado*
-                        </label>
-                        <input type="estado" class="form-control" id="Inputestado" />
-                    </div>
+                        <div class="form-group">
+                            <label for="InputEstado">
+                                Estado*
+                            </label>
+                            <input type="estado" class="form-control" id="Inputestado" required />
+                        </div>
 
-                    <div class="form-group">
-                        <label for="InputCidade">
-                            Cidade*
-                        </label>
-                        <input type="cidade" class="form-control" id="InputCidade" />
-                    </div>
+                        <div class="form-group">
+                            <label for="InputCidade">
+                                Cidade*
+                            </label>
+                            <input type="cidade" class="form-control" id="InputCidade" required />
+                        </div>
                     </fieldset>
 
                     <fieldset class="grupo">
-                    <div class="form-group">
-                        <label for="InputBairro">
-                            Bairro*
-                        </label>
-                        <input type="bairro" class="form-control" id="InputBairro" />
-                    </div>
-                
-                    <div class="form-group">
-                        <label for="InputRua">
-                            Rua*
-                        </label>
-                        <input type="rua" class="form-control" id="InputRua" />
-                    </div>
+                        <div class="form-group">
+                            <label for="InputBairro">
+                                Bairro*
+                            </label>
+                            <input type="bairro" class="form-control" id="InputBairro" required />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="InputRua">
+                                Rua*
+                            </label>
+                            <input type="rua" class="form-control" id="InputRua" required />
+                        </div>
                     </fieldset>
 
                     <fieldset class="grupo">
-                    <div class="form-group">
-                        <label for="InputNumero">
-                            Número*
-                        </label>
-                        <input type="number" class="form-control" id="InputNumero" />
-                    </div>
-                    <div class="form-group">                         
-                        <label for="InputComplemento">
-                        Complemento
-                        </label>
-                        <input type="Complemento" class="form-control" id="InputComplemento" />
-                    </div>
-                    </fieldset>                   
-        
-                    <div class="checkbox">                         
+                        <div class="form-group">
+                            <label for="InputNumero">
+                                Número*
+                            </label>
+                            <input type="number" class="form-control" id="InputNumero" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="InputComplemento">
+                                Complemento
+                            </label>
+                            <input type="Complemento" class="form-control" id="InputComplemento" />
+                        </div>
+                    </fieldset>
+
+                    <div class="checkbox">
                         <label>
                             <input type="checkbox" /> Eu li e concordo com os Termos de Uso e Política de Privacidade
                         </label>
-                    </div> 
+                    </div>
                     <button type="submit" class="button">
                         Cadastrar
                     </button>
@@ -145,11 +149,18 @@
             </div>
         </div>
     </div>
-    
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 
 </body>
+
 </html>
