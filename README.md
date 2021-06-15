@@ -1,12 +1,24 @@
 # Projeto Gama Acadamy - Afya Labs 
 
-### Grupo 04 - Turma 02
+Interfaces feitas com HTML, CSS e Bootstrap para o desafio da Afya Labs - parceria da Afya Educacional com Gama Academy. 
+O desafio consiste em criar  um sistema para um consultório controlar o cadastro de seus clientes, atendimentos e prontuário dos pacientes.
+ 
+### Briefing do desafio 
 
-Frontend - interfaces e telas
+[Projeto](https://github.com/educacao-gama/desafios-gama/)
 
-[Projeto](https://github.com/educacao-gama/desafios-gama/tree/main/atendimento%20medico) 
+### Grupo 04 - Turma 02 - Participantes realizadores
+
+[Lutchenca Medeiros](https://github.com/lutchenca)
+[Renan Tokashiki](https://github.com/renantoka)
+[Marcílio Júnior](https://github.com/jrsmarcilio)
+ 
+
+### Nosso projeto: 
 
 [Backend](https://github.com/jrsmarcilio/backend-g4t2)
+[Mobile](https://github.com/renantoka/mobile-g4t2)
+
 
 
 
