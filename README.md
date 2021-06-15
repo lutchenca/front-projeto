@@ -9,9 +9,9 @@ O desafio consiste em criar  um sistema para um consultório controlar o cadastr
 
 ### Grupo 04 - Turma 02 - Participantes realizadores
 
-[Lutchenca Medeiros](https://github.com/lutchenca)
-[Renan Tokashiki](https://github.com/renantoka)
-[Marcílio Júnior](https://github.com/jrsmarcilio)
+- [Lutchenca Medeiros](https://github.com/lutchenca)
+- [Renan Tokashiki](https://github.com/renantoka)
+- [Marcílio Júnior](https://github.com/jrsmarcilio)
  
 
 ### Nosso projeto: 
