@@ -4364,27 +4364,7 @@
     margin-left: 0;
   }
   
-  .card > .list-group {
-    border-top: inherit;
-    border-bottom: inherit;
-  }
   
-  .card > .list-group:first-child {
-    border-top-width: 0;
-    border-top-left-radius: calc(0.35rem - 1px);
-    border-top-right-radius: calc(0.35rem - 1px);
-  }
-  
-  .card > .list-group:last-child {
-    border-bottom-width: 0;
-    border-bottom-right-radius: calc(0.35rem - 1px);
-    border-bottom-left-radius: calc(0.35rem - 1px);
-  }
-  
-  .card > .card-header + .list-group,
-  .card > .list-group + .card-footer {
-    border-top: 0;
-  }
   
   .card-body {
     flex: 1 1 auto;
@@ -9764,87 +9744,8 @@
   }
   
   .bg-gradient-primary {
-    background-color: #4e73df;
-    background-image: linear-gradient(180deg, #4e73df 10%, #224abe 100%);
-    background-size: cover;
-  }
-  
-  .bg-gradient-secondary {
-    background-color: #858796;
-    background-image: linear-gradient(180deg, #858796 10%, #60616f 100%);
-    background-size: cover;
-  }
-  
-  .bg-gradient-success {
-    background-color: #1cc88a;
-    background-image: linear-gradient(180deg, #1cc88a 10%, #13855c 100%);
-    background-size: cover;
-  }
-  
-  .bg-gradient-info {
-    background-color: #36b9cc;
-    background-image: linear-gradient(180deg, #36b9cc 10%, #258391 100%);
-    background-size: cover;
-  }
-  
-  .bg-gradient-warning {
-    background-color: #f6c23e;
-    background-image: linear-gradient(180deg, #f6c23e 10%, #dda20a 100%);
-    background-size: cover;
-  }
-  
-  .bg-gradient-danger {
-    background-color: #e74a3b;
-    background-image: linear-gradient(180deg, #e74a3b 10%, #be2617 100%);
-    background-size: cover;
-  }
-  
-  .bg-gradient-light {
-    background-color: #f8f9fc;
-    background-image: linear-gradient(180deg, #f8f9fc 10%, #c2cbe5 100%);
-    background-size: cover;
-  }
-  
-  .bg-gradient-dark {
-    background-color: #5a5c69;
-    background-image: linear-gradient(180deg, #5a5c69 10%, #373840 100%);
-    background-size: cover;
-  }
-  
-  .bg-gray-100 {
-    background-color: #f8f9fc !important;
-  }
-  
-  .bg-gray-200 {
-    background-color: #eaecf4 !important;
-  }
-  
-  .bg-gray-300 {
-    background-color: #dddfeb !important;
-  }
-  
-  .bg-gray-400 {
-    background-color: #d1d3e2 !important;
-  }
-  
-  .bg-gray-500 {
-    background-color: #b7b9cc !important;
-  }
-  
-  .bg-gray-600 {
-    background-color: #858796 !important;
-  }
-  
-  .bg-gray-700 {
-    background-color: #6e707e !important;
-  }
-  
-  .bg-gray-800 {
-    background-color: #5a5c69 !important;
-  }
-  
-  .bg-gray-900 {
-    background-color: #3a3b45 !important;
+    background-color: #D40054;
+      background-size: cover;
   }
   
   .o-hidden {
@@ -10354,7 +10255,7 @@
     margin-right: 1rem;
     margin-bottom: 1rem;
     padding: 1rem;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: #13132b;
   }
   
   .sidebar .sidebar-card .sidebar-card-illustration {
