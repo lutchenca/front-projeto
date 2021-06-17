@@ -4,14 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link ref="stylesheet" href="../cadastroMedico/styleMedico.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../cadastroMedico/style.css">
     <title>Cadastro Médico</title>
 </head>
 
 <body>
+
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-4">
@@ -24,14 +25,14 @@
             </div>
 
             <div class="col-md-4 logo-afya">
-                <img alt="logo-afya" src="../assets/img/logoafya.png" />
+                <img alt="logo-afya" src="/assets/img/logoafya.png" />
             </div>
         </div>
 
         <div class="row">
             <div class="col-md-4 texto">
                 <p>
-                    Descubra todas as funcionalidades e serviços que a Afya pode oferecer a você e seu paciente.
+                    Descubra todas as funcionalidades e serviços que a Afya pode oferecer a você e seu paciente. 
                 </p>
             </div>
 
@@ -49,7 +50,7 @@
 
                         <div class="form-group">
                             <label for="InputTipo">
-                                Tipo Sanguíneo*
+                                Profissão*
                             </label>
                             <input type="tipo-sanguineo" class="form-control" id="InputTipo" required />
                         </div>
@@ -128,13 +129,19 @@
                             <input type="number" class="form-control" id="InputNumero" required />
                         </div>
                         <div class="form-group">
-                            <label for="InputComplemento">
-                                Complemento
+                            <label for="InputCEP">
+                                CEP
                             </label>
-                            <input type="Complemento" class="form-control" id="InputComplemento" />
-                        </div>
+                            <input type="CEP" class="form-control" id="InputCEP" />
+                        </div>                    
                     </fieldset>
 
+                    <div class="form-group">
+                        <label for="InputComplemento">
+                            Complemento
+                        </label>
+                        <input type="Complemento" class="form-control" id="InputComplemento" />
+                    </div>
                     <div class="checkbox">
                         <label>
                             <input type="checkbox" /> Eu li e concordo com os Termos de Uso e Política de Privacidade
