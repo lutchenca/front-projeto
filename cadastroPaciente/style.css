@@ -37,6 +37,7 @@ h3 {
 .texto {
     padding: 10px;
     background-color: #d40054;
+    border-top-right-radius: 50px;
     color: white;
 }
 #InputNome {
