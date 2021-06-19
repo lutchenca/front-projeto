@@ -9,7 +9,7 @@ O desafio consiste em criar  um sistema para um consultório controlar o cadastr
 
 ### Grupo 04 - Turma 02 - Participantes realizadores
 
-[Time](https://imgur.com/IFvBJbb)
+![Nosso time](https://imgur.com/IFvBJbb)
 
 - [Lutchenca Medeiros](https://github.com/lutchenca)
 - [Renan Tokashiki](https://github.com/renantoka)
@@ -58,4 +58,4 @@ O desafio consiste em criar  um sistema para um consultório controlar o cadastr
   </tbody>
 </table>
 
-<br>[⬆ Voltar ao top](#front-projeto)<br>
+<br>[⬆ Voltar ao top](#front-projeto-)<br>
