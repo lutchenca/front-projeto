@@ -9,6 +9,8 @@ O desafio consiste em criar  um sistema para um consultório controlar o cadastr
 
 ### Grupo 04 - Turma 02 - Participantes realizadores
 
+[Time](https://imgur.com/IFvBJbb)
+
 - [Lutchenca Medeiros](https://github.com/lutchenca)
 - [Renan Tokashiki](https://github.com/renantoka)
 - [Marcílio Júnior](https://github.com/jrsmarcilio)
@@ -22,3 +24,38 @@ O desafio consiste em criar  um sistema para um consultório controlar o cadastr
 
 
 
+## 💈 Tecnologias Usadas
+
+<table>
+  <thead>
+    <tr>
+      <th>Tecnologia</th>
+      <th>Função</th>
+    </tr>
+  </thead>
+ <tbody>
+    <tr>
+      <td>HTML e CSS</td>
+      <td> Criação e estilização dos arquivos de telas e interfaces <td>
+    </tr>
+    <tr>
+      <td> Bootstrap </td>
+      <td>  Uso de templates </td>
+    </tr>
+    <tr>
+      <td>  React  </td>
+      <td> Frontend   </td>
+    </tr>
+    <tr>
+      <td>  React Native   </td>
+      <td> Mobile   </td>
+    </tr>
+    <tr>
+      <td>  NodeJS </td>
+      <td>  </td>
+    </tr>
+    <tr> 
+  </tbody>
+</table>
+
+<br>[⬆ Voltar ao top](#front-projeto)<br>
